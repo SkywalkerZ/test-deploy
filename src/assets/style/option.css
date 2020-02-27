@@ -6,13 +6,16 @@
     float:left;
     background: white;;
 }
-#optionTitle{
-    margin-bottom:2%;
-    text-align: center;
+#optionTitle {
+  margin-bottom: 2%;
+  text-align: center;
 }
 
-#row1, #row2, #row3{
-    margin-bottom: 1%;
+#row1,
+#row2,
+#row3,
+#rowSub {
+  margin-bottom: 1%;
 }
 
 #scoreContainer{
@@ -22,13 +25,13 @@
    height:100%;
 }
 
-#scoreTitle{
-    margin-bottom:2%;
-    text-align: center;
+#scoreTitle {
+  margin-bottom: 2%;
+  text-align: center;
 }
 
-#team{
-    width:100%;
-    padding-right: 20%;
-    margin-right:5%;
+#team {
+  width: 100%;
+  padding-right: 20%;
+  margin-right: 5%;
 }

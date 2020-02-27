@@ -7,7 +7,7 @@
     margin-top: .0005%;
     margin-left: 2%;
     margin-right: 0%;
-    float:left;
+    float:right;
 }
 #optionTitle {
   margin-bottom: 2%;
@@ -19,10 +19,11 @@
 #row3,
 #rowSub {
   margin-bottom: 1%;
+  margin-left: 10%;
 }
 
 #scoreContainer{
-   float:left;
+   float:right;
    width:15%;
    margin-top: .0005%;
    height:100%;
@@ -31,6 +32,7 @@
 #scoreTitle {
   margin-bottom: 2%;
   text-align: center;
+  
 }
 
 #team {

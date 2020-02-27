@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Typography from '@material-ui/core/Typography';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../assets/style/option.css";
+import "../assets/style/main.css";
 
 const useStyles = makeStyles({
     root: {
@@ -27,9 +27,9 @@ const useStyles = makeStyles({
 export default class Landing extends Component {
     render() {
         return (
-            <div className="min-vh-100" id="optionsPage">
-                <div id="option-container">
-                    <div id="optionTitle">
+            <div className="min-vh-100" id="mainPage">
+                <div id="main-container">
+                    <div id="mainTitle">
                         <h1 className="p-3 display-2"><u>National Science Day</u></h1>
                         <h1 className="m-2 display-4"><u>Science Quiz</u></h1>
                     </div>

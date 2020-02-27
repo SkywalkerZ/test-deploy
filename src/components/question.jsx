@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+import Button from "react-bootstrap/Button"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Question extends Component {
@@ -34,11 +36,16 @@ export default class Question extends Component {
                     </div>
                     <div className="p-4 text-center">
                         <div>
-                            <h1 className="display-3">{this.state.seconds}</h1>
+                            <h1 className="display-3">00:{this.state.seconds}</h1>
                             <h1 className="display-3 mt-2">{this.state.message}</h1>
                         </div>
                         <h1 className="display-2">{question}</h1>
                     </div>
+                </div>
+                <div className="mx-auto text-center">
+                    {this.state.message === "" ? null : (
+                        <Button variant="primary" size="lg" href="/option">Go back</Button>
+                    )}
                 </div>
             </div>
         )

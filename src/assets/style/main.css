@@ -1,13 +1,18 @@
+#mainPage, #main-container{
+    background: #f2f2f2;
+}
+
 #mainPage{
     text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 #main-container{
     width:90%;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
-    background: white;
+    margin-top: .005%;
+    margin-left: auto !important;
+    margin-right: auto !important;
     display: inline-block;
 }
 #mainTitle{
@@ -15,6 +20,33 @@
     text-align: center;
 }
 
-#row1, #row2, #row3{
-    margin-bottom: 1%;
+#row1-main, #row2-main{
+    margin-bottom: .5%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#batch1a{
+    margin-left: auto !important;
+    margin-right: .5% !important;
+}
+#batch1b{
+    margin-left: .5% !important;
+    margin-right: .5% !important;
+}
+#batch2{
+    margin-left: .5% !important;
+    margin-right: auto !important;
+}
+#batch3{
+    margin-left: auto !important;
+    margin-right: .5% !important;
+}
+#batch4{
+    margin-left: .5% !important;
+    margin-right: .5% !important;
+}
+#batch5{
+    margin-left: .5% !important;
+    margin-right: auto !important;
 }

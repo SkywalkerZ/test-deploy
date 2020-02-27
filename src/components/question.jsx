@@ -7,7 +7,7 @@ export default class Question extends Component {
             <div className="min-vh-100">
                 <div className="m-4">
                     <div className="p-4 text-center">
-                        <h1 className="display-2"><u>Your Question Is</u></h1>
+                        <h1 className="display-4"><u>Your Question Is</u></h1>
                     </div>
                     <div className="p-4 text-center">
                         <div>

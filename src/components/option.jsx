@@ -72,8 +72,8 @@ export default class Option extends Component {
               </Card>            </div>
           </Row>
           <Row id="row1">
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-a">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" >
+              <Card className={useStyles.root} id="mark1-a">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -90,8 +90,8 @@ export default class Option extends Component {
                 </CardActions>
               </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-b">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <Card className={useStyles.root} id="mark1-b">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -108,8 +108,8 @@ export default class Option extends Component {
                 </CardActions>
               </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-c">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <Card className={useStyles.root} id="mark1-c">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -128,7 +128,8 @@ export default class Option extends Component {
             </div>
           </Row>
           <Row id="row2">
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-a"> <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3"> 
+            <Card className={useStyles.root} id="mark2-a">
               <CardContent>
                 <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                   Normal
@@ -145,8 +146,8 @@ export default class Option extends Component {
               </CardActions>
             </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-b">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" >
+              <Card className={useStyles.root} id="mark2-b">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Normal
@@ -163,8 +164,8 @@ export default class Option extends Component {
                 </CardActions>
               </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-c">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <Card className={useStyles.root} id="mark2-c">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Normal
@@ -183,8 +184,8 @@ export default class Option extends Component {
             </div>
           </Row>
           <Row id="row3">
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-a">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" >
+              <Card className={useStyles.root} id="mark3-a" >
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Hard
@@ -201,8 +202,8 @@ export default class Option extends Component {
                 </CardActions>
               </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-b">
-              <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" >
+              <Card className={useStyles.root} id="mark3-b">
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Hard
@@ -219,7 +220,8 @@ export default class Option extends Component {
                 </CardActions>
               </Card>
             </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-c"> <Card className={useStyles.root}>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3"> 
+            <Card className={useStyles.root} id="mark3-c">
               <CardContent>
                 <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                   Hard

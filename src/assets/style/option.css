@@ -35,3 +35,19 @@
   padding-right: 20%;
   margin-right: 5%;
 }
+
+#mark1-a:hover, #mark1-b:hover, #mark1-c:hover, #mark2-a:hover, #mark2-b:hover, #mark2-c:hover, #mark3-a:hover, #mark3-b:hover, #mark3-c:hover{
+    background:linear-gradient(135deg, #fad961 0%,#f76b1c 100%);
+}
+
+#mark1-a, #mark1-b, #mark1-c{
+    background:linear-gradient(135deg, #5b247a 0%,#1bcedf 100%);
+}
+
+#mark2-a, #mark2-b, #mark2-c{
+    background:linear-gradient(135deg, #184e68 0%,#57ca85 100%);
+}
+
+#mark3-a,#mark3-b,#mark3-c{
+    background:linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+}

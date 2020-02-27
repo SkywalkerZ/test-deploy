@@ -10,19 +10,19 @@ export default class Option extends Component {
             <div className="min-vh-100" id="optionsPage">
                 <div id="option-container">
                 <Row>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark1-a">1</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark1-b">2</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark1-c">3</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark1-a">1</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark1-b">2</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark1-c">3</div>
                 </Row>
                 <Row>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark2-a">1</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark2-b">2</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark2-c">3</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark2-a">1</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark2-b">2</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark2-c">3</div>
                 </Row>
                 <Row>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark3-a">1</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark3-b">2</div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3" id="mark3-c">3</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark3-a">1</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark3-b">2</div>
+                <div className="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mark3-c">3</div>
                 </Row>
                 </div>
             </div>

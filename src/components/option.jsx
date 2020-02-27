@@ -16,41 +16,43 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
 const useStyles = makeStyles({
-    root: {
-      minWidth: 275,
-    },
-    bullet: {
-      display: 'inline-block',
-      margin: '0 2px',
-      transform: 'scale(0.8)',
-    },
-    title: {
-      fontSize: 14,
-    },
-    pos: {
-      marginBottom: 12,
-    },
-  });
-  const useStyles2 = makeStyles(theme => ({
-    root: {
-      width: '100%',
-      maxWidth: 360,
-      backgroundColor: theme.palette.background.paper,
-    },
-    inline: {
-        display: 'inline',
-      },
-  }));
+  root: {
+    minWidth: 275,
+  },
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
+  },
+});
+const useStyles2 = makeStyles(theme => ({
+  root: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
+  },
+  inline: {
+    display: 'inline',
+  },
+}));
 
 export default class Option extends Component {
-    render() {
-        return (
-            <div className="min-vh-100" id="optionsPage">
-                <div id="option-container">
-                <div id="optionTitle"><h3>Options</h3></div>
-                <Row id="row1">
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-a">
-                <Card className={useStyles.root}>
+  render() {
+    return (
+      <div className="min-vh-100" id="optionsPage">
+        <div id="option-container">
+          <div id="optionTitle">
+            <h1 className="display-3"><u>Subjects</u></h1>
+          </div>
+          <Row id="row1">
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-a">
+              <Card className={useStyles.root}>
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -59,16 +61,16 @@ export default class Option extends Component {
                     Mark 1
                   </Typography>
                   <Typography variant="body2" component="p">
-                       This is fun!
+                    This is fun!
                   </Typography>
                 </CardContent>
                 <CardActions>
-                <Button size="small">Proceed</Button>
+                  <Button size="small">Proceed</Button>
                 </CardActions>
               </Card>
-              </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-b">
-                <Card className={useStyles.root}>
+            </div>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-b">
+              <Card className={useStyles.root}>
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -77,16 +79,16 @@ export default class Option extends Component {
                     Mark 1
                   </Typography>
                   <Typography variant="body2" component="p">
-                       This is fun!
+                    This is fun!
                   </Typography>
                 </CardContent>
                 <CardActions>
-                <Button size="small">Proceed</Button>
+                  <Button size="small">Proceed</Button>
                 </CardActions>
               </Card>
-                </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-c">
-                <Card className={useStyles.root}>
+            </div>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark1-c">
+              <Card className={useStyles.root}>
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Easy
@@ -95,17 +97,35 @@ export default class Option extends Component {
                     Mark 1
                   </Typography>
                   <Typography variant="body2" component="p">
-                       This is fun!
+                    This is fun!
                   </Typography>
                 </CardContent>
                 <CardActions>
-                <Button size="small">Proceed</Button>
+                  <Button size="small">Proceed</Button>
                 </CardActions>
               </Card>
-                </div>
-                </Row>
-                <Row id="row2">
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-a"> <Card className={useStyles.root}>
+            </div>
+          </Row>
+          <Row id="row2">
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-a"> <Card className={useStyles.root}>
+              <CardContent>
+                <Typography className={useStyles.title} color="textSecondary" gutterBottom>
+                  Normal
+                  </Typography>
+                <Typography variant="h5" component="h2">
+                  Mark 2
+                  </Typography>
+                <Typography variant="body2" component="p">
+                  This is fun!
+                  </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Proceed</Button>
+              </CardActions>
+            </Card>
+            </div>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-b">
+              <Card className={useStyles.root}>
                 <CardContent>
                   <Typography className={useStyles.title} color="textSecondary" gutterBottom>
                     Normal
@@ -114,169 +134,153 @@ export default class Option extends Component {
                     Mark 2
                   </Typography>
                   <Typography variant="body2" component="p">
-                       This is fun!
+                    This is fun!
                   </Typography>
                 </CardContent>
                 <CardActions>
-                <Button size="small">Proceed</Button>
+                  <Button size="small">Proceed</Button>
                 </CardActions>
               </Card>
-              </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-b"> 
-                <Card className={useStyles.root}>
-                <CardContent>
-                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
-                  Normal
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    Mark 2
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                       This is fun!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                <Button size="small">Proceed</Button>
-                </CardActions>
-              </Card>
-                </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-c">
-                <Card className={useStyles.root}>
-                <CardContent>
-                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
-                  Normal
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    Mark 2
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                       This is fun!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                <Button size="small">Proceed</Button>
-                </CardActions>
-              </Card>
-                </div>
-                </Row>
-                <Row id="row3">
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-a"> 
-                <Card className={useStyles.root}>
-                <CardContent>
-                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
-                    Hard
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    Mark 3
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                       This is fun!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                <Button size="small">Proceed</Button>
-                </CardActions>
-              </Card>
-              </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-b"> 
-                <Card className={useStyles.root}>
-                <CardContent>
-                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
-                    Hard
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    Mark 3
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                       This is fun!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                <Button size="small">Proceed</Button>
-                </CardActions>
-              </Card>
-              </div>
-                <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-c"> <Card className={useStyles.root}>
-                <CardContent>
-                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
-                    Hard
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    Mark 3
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                       This is fun!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                <Button size="small">Proceed</Button>
-                </CardActions>
-              </Card>
-              </div>
-                </Row>
-                </div>
-                <div id="scoreContainer">
-                <div id="scoreTitle"><h3>Score</h3></div>
-                <div id="team">
-                <List className={useStyles2.root}>
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary="Team 1"
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={useStyles2.inline}
-                color="textPrimary"
-              >
-                Score:
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary="Team 2"
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={useStyles2.inline}
-                color="textPrimary"
-              >
-                Score:
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary="Team 3"
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={useStyles2.inline}
-                color="textPrimary"
-              >
-                Score:
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-    </List>
-                </div>
-            
-                </div>
             </div>
-        )
-    }
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark2-c">
+              <Card className={useStyles.root}>
+                <CardContent>
+                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
+                    Normal
+                  </Typography>
+                  <Typography variant="h5" component="h2">
+                    Mark 2
+                  </Typography>
+                  <Typography variant="body2" component="p">
+                    This is fun!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Proceed</Button>
+                </CardActions>
+              </Card>
+            </div>
+          </Row>
+          <Row id="row3">
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-a">
+              <Card className={useStyles.root}>
+                <CardContent>
+                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
+                    Hard
+                  </Typography>
+                  <Typography variant="h5" component="h2">
+                    Mark 3
+                  </Typography>
+                  <Typography variant="body2" component="p">
+                    This is fun!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Proceed</Button>
+                </CardActions>
+              </Card>
+            </div>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-b">
+              <Card className={useStyles.root}>
+                <CardContent>
+                  <Typography className={useStyles.title} color="textSecondary" gutterBottom>
+                    Hard
+                  </Typography>
+                  <Typography variant="h5" component="h2">
+                    Mark 3
+                  </Typography>
+                  <Typography variant="body2" component="p">
+                    This is fun!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Proceed</Button>
+                </CardActions>
+              </Card>
+            </div>
+            <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3" id="mark3-c"> <Card className={useStyles.root}>
+              <CardContent>
+                <Typography className={useStyles.title} color="textSecondary" gutterBottom>
+                  Hard
+                  </Typography>
+                <Typography variant="h5" component="h2">
+                  Mark 3
+                  </Typography>
+                <Typography variant="body2" component="p">
+                  This is fun!
+                  </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Proceed</Button>
+              </CardActions>
+            </Card>
+            </div>
+          </Row>
+        </div>
+        <div id="scoreContainer">
+          <div id="scoreTitle">
+            <h1 className="display-4"><u>Scores</u></h1>
+          </div>
+          <div id="team">
+            <List className={useStyles2.root}>
+              <ListItem alignItems="flex-start">
+                <ListItemText
+                  primary="Team 1"
+                  secondary={
+                    <React.Fragment>
+                      <Typography
+                        component="span"
+                        variant="body2"
+                        className={useStyles2.inline}
+                        color="textPrimary"
+                      >
+                        Score:
+              </Typography>
+                    </React.Fragment>
+                  }
+                />
+              </ListItem>
+              <Divider variant="inset" component="li" />
+              <ListItem alignItems="flex-start">
+                <ListItemText
+                  primary="Team 2"
+                  secondary={
+                    <React.Fragment>
+                      <Typography
+                        component="span"
+                        variant="body2"
+                        className={useStyles2.inline}
+                        color="textPrimary"
+                      >
+                        Score:
+              </Typography>
+                    </React.Fragment>
+                  }
+                />
+              </ListItem>
+              <Divider variant="inset" component="li" />
+              <ListItem alignItems="flex-start">
+                <ListItemText
+                  primary="Team 3"
+                  secondary={
+                    <React.Fragment>
+                      <Typography
+                        component="span"
+                        variant="body2"
+                        className={useStyles2.inline}
+                        color="textPrimary"
+                      >
+                        Score:
+              </Typography>
+                    </React.Fragment>
+                  }
+                />
+              </ListItem>
+            </List>
+          </div>
+
+        </div>
+      </div>
+    )
+  }
 }

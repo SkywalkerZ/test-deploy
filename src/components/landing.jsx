@@ -30,8 +30,8 @@ export default class Landing extends Component {
             <div className="min-vh-100" id="optionsPage">
                 <div id="option-container">
                     <div id="optionTitle">
-                        <h1 className="m-3">National Science Day</h1>
-                        <h2 className="m-2">Science Quiz</h2>
+                        <h1 className="p-3 display-2"><u>National Science Day</u></h1>
+                        <h1 className="m-2 display-4"><u>Science Quiz</u></h1>
                     </div>
                     <Row id="row1">
                         <div className="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6" id="batch1a">

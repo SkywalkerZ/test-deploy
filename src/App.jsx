@@ -11,9 +11,9 @@ export default class App extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route exact path="/" component={Landing} />
-                    <Route path="/question" component={Question} />
-                    <Route path="/option" component={Option} />
+                    <Route exact path="/test-deploy/" component={Landing} />
+                    <Route path="/test-deploy/question" component={Question} />
+                    <Route path="/test-deploy/option" component={Option} />
                     <Route component={NotFound} />
                 </Switch>
             </Router>

@@ -50,3 +50,12 @@
     margin-left: .5% !important;
     margin-right: auto !important;
 }
+
+#btnLanding:hover{
+    background: black;
+    color:white;
+    outline: none !important;
+}
+#btnLanding:focus{
+    outline: none !important;
+}

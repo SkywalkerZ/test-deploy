@@ -42,7 +42,7 @@ export default class Landing extends Component {
                                         Time
                   </Typography>
                                     <Typography variant="h5" component="h2">
-                                        <Button size="small">Batch 1A</Button>
+                                        <Button size="small" id="btnLanding">Batch 1A</Button>
                   </Typography>
 
                                 </CardContent>
@@ -55,7 +55,7 @@ export default class Landing extends Component {
                                         Time
                   </Typography>
                                     <Typography variant="h5" component="h2">
-                                    <Button size="small">Batch 1B</Button>
+                                    <Button size="small" id="btnLanding">Batch 1B</Button>
                   </Typography>
 
                                 </CardContent>
@@ -68,7 +68,7 @@ export default class Landing extends Component {
                                         Time
                   </Typography>
                                     <Typography variant="h5" component="h2">
-                                    <Button size="small"> Batch 2</Button>
+                                    <Button size="small" id="btnLanding"> Batch 2</Button>
                   </Typography>
 
                                 </CardContent>
@@ -83,7 +83,7 @@ export default class Landing extends Component {
                                 Time
           </Typography>
                             <Typography variant="h5" component="h2">
-                            <Button size="small"> Batch 3</Button>
+                            <Button size="small" id="btnLanding"> Batch 3</Button>
           </Typography>
 
                         </CardContent>
@@ -96,7 +96,7 @@ export default class Landing extends Component {
                                         Time
                   </Typography>
                                     <Typography variant="h5" component="h2">
-                                    <Button size="small">Batch 4</Button>
+                                    <Button size="small" id="btnLanding">Batch 4</Button>
                   </Typography>
 
                                 </CardContent>
@@ -109,7 +109,7 @@ export default class Landing extends Component {
                                         Time
                   </Typography>
                                     <Typography variant="h5" component="h2">
-                                    <Button size="small"> Batch 5</Button>
+                                    <Button size="small" id="btnLanding"> Batch 5</Button>
                   </Typography>
 
                                 </CardContent>

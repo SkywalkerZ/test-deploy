@@ -53,21 +53,21 @@ export default class Option extends Component {
           <Row id="rowSub">
             <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
               <Card className={useStyles.root}>
-                <CardContent>
-                  <h3>Mathematics</h3>
+                <CardContent className="text-wrap">
+                  <h5>Mathematics</h5>
                 </CardContent>
               </Card>
             </div>
             <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
               <Card className={useStyles.root}>
-                <CardContent>
-                  <h3>Science</h3>
+                <CardContent className="text-wrap">
+                  <h5>Science</h5>
                 </CardContent>
               </Card>            </div>
             <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
               <Card className={useStyles.root}>
-                <CardContent>
-                  <h3>General</h3>
+                <CardContent className="text-wrap">
+                  <h5>General</h5>
                 </CardContent>
               </Card>            </div>
           </Row>

@@ -48,7 +48,6 @@ export default class Option extends Component {
       <div className="min-vh-100" id="optionsPage">
         <div id="option-container">
           <div id="optionTitle">
-            <h1 className="display-3 pd-3"><u>Subjects</u></h1>
           </div>
           <Row id="rowSub">
             <div className="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">

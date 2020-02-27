@@ -12,8 +12,8 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles({
   root: {
@@ -247,7 +247,8 @@ export default class Option extends Component {
             <List className={useStyles2.root}>
               <ListItem alignItems="flex-start">
                 <ListItemText
-                  primary="Team 1"
+                  primary="Team 1" 
+
                   secondary={
                     <React.Fragment>
                       <Typography
@@ -256,7 +257,16 @@ export default class Option extends Component {
                         className={useStyles2.inline}
                         color="textPrimary"
                       >
-                        Score:
+                      Score: {}
+
+                      <TextField
+                      id="standard-input"
+                      label="Score"
+                      type="text"
+                      size="small"
+                    />
+
+                    <Button id="btnUpdate" size="small" variant="outlined">Update</Button>
               </Typography>
                     </React.Fragment>
                   }
@@ -274,7 +284,16 @@ export default class Option extends Component {
                         className={useStyles2.inline}
                         color="textPrimary"
                       >
-                        Score:
+                      Score: {}
+
+                      <TextField
+                      id="standard-input"
+                      label="Score"
+                      type="text"
+                      size="small"
+                    />
+
+                    <Button id="btnUpdate" size="small" variant="outlined">Update</Button>
               </Typography>
                     </React.Fragment>
                   }
@@ -292,7 +311,16 @@ export default class Option extends Component {
                         className={useStyles2.inline}
                         color="textPrimary"
                       >
-                        Score:
+                      Score: {}
+
+                      <TextField
+                      id="standard-input"
+                      label="Score"
+                      type="text"
+                      size="small"
+                    />
+
+                    <Button id="btnUpdate" size="small" variant="outlined">Update</Button>
               </Typography>
                     </React.Fragment>
                   }

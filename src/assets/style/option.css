@@ -37,7 +37,6 @@
 
 #team {
   width: 100%;
-  padding-right: 20%;
   margin-right: 5%;
 }
 
@@ -55,4 +54,8 @@
 
 #mark1-c,#mark2-c,#mark3-c{
   background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%);
+}
+
+#btnUpdate, #standard-input{
+  display: flex;
 }
